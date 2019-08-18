@@ -1,5 +1,6 @@
 package forfun.controller;
 
+import forfun.model.Exponential;
 import forfun.model.Factorial;
 import forfun.view.View;
 
@@ -15,7 +16,12 @@ public class Controller {
     
     public void factorial() {
         Factorial fac = new Factorial();
-        view.printToConsole("fatorial of 10", fac.calc(10));
+        Exponential exp = new Exponential();
+        //view.getUserInput();
+        view.printToConsole("fatorial of 4", fac.calc(4));
+        view.printToConsole("Exponential of 2 pow 8: ", exp.power(2, 8));
+
+        
 
     }
     
