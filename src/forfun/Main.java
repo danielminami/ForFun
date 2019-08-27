@@ -11,7 +11,9 @@ public class Main {
     public static void main(String[] args) {
         
         Controller controller = new Controller();
-        controller.factorial();
+        //controller.recursion();
+        //controller.calculation();
+        controller.sort();
         
     }
     

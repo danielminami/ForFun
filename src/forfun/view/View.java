@@ -10,6 +10,13 @@ public class View {
     
     public View() {}
     
+    public void printToConsole(int[] array) {
+        for (int i: array){
+            System.out.println("Array: ");
+            System.out.print(i + "  ");
+        }
+    }
+    
     public void printToConsole(String str) {
         System.out.println(str);
     }
