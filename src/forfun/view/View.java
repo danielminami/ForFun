@@ -11,8 +11,9 @@ public class View {
     public View() {}
     
     public void printToConsole(int[] array) {
+        System.out.println("Array: ");
         for (int i: array){
-            System.out.println("Array: ");
+            
             System.out.print(i + "  ");
         }
     }
