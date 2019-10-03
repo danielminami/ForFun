@@ -19,7 +19,7 @@ public class Controller {
     public void sort() {
         SelectionSort sSort = new SelectionSort();
         int[] arrayToSort = {9, 2, 4, 3, 5, 8, 6, 1, 7};
-        sSort.sort(arrayToSort);
+        sSort.sort2(arrayToSort);
         view.printToConsole(arrayToSort);
     }
     
