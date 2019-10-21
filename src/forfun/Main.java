@@ -13,7 +13,8 @@ public class Main {
         Controller controller = new Controller();
         //controller.recursion();
         //controller.calculation();
-        controller.sort();
+        //controller.sort();
+        controller.cleanRepetition();
         
     }
     
