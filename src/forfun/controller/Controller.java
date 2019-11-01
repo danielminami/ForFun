@@ -4,6 +4,7 @@ import forfun.model.Exponential;
 import forfun.model.Factorial;
 import forfun.model.Addition;
 import forfun.model.SelectionSort;
+import forfun.model.MyArrays;
 import forfun.view.View;
 
 /**
@@ -44,6 +45,11 @@ public class Controller {
         view.printToConsole("Exponential of 2 pow -4: ", exp.calc(2, -4));
     }
     
+    public void cleanRepetition() {
+        MyArrays array = new MyArrays();
+        int[] arr = {1, 8, 3, 4, 11, 2, 1, 3, 5, 7, 8, 11};
+        view.printToConsole(array.cleanRepetition(arr));
+    }
 
     
     
